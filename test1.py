@@ -9,7 +9,7 @@ def generate_permutations(string):
             permutations.append(char + sub_permutation)
     
     return permutations
-# Input
+# Input BAHLIL LAHADALIA
 input_string = "abcde"
 # Output
 print("All permutations of", input_string, "are:", generate_permutations(input_string))
